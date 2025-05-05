@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #111;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: #002b45;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero, .features, .values, .testimonial, .newsletter {
+  padding: 3em 2em;
+  background-color: #fff;
+  margin: 1em 0;
+}
+
+.hero {
+  text-align: center;
+  background-color: #e6f0f3;
+}
+
+.placeholder.image {
+  background-color: #ccc;
+  height: 200px;
+  margin: 1em 0;
+}
+
+.placeholder.text {
+  background-color: #eee;
+  padding: 2em;
+  margin-top: 1em;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+.feature-box {
+  width: 30%;
+  background-color: #ddd;
+  padding: 2em;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form button {
+  padding: 0.8em;
+  font-size: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #002b45;
+  color: #fff;
+}
